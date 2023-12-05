@@ -1,14 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MyComponent from "./components/MyComponents";
-function App() {
-  return (
-    <div>
-      {" "}
-      Xuan Kha Nguyen
-      <MyComponent></MyComponent>
-    </div>
-  );
+import React from "react";
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello Kha
+        <MyComponent></MyComponent>
+      </div>
+    );
+  }
 }
 
 export default App;
