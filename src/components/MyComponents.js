@@ -6,8 +6,8 @@ class MyComponent extends React.Component {
   //JSX
   state = {
     listUsers: [
-      { id: 1, name: "Kha0", age: "30" },
-      { id: 2, name: "Kha1", age: "31" },
+      { id: 1, name: "Kha0", age: "15" },
+      { id: 2, name: "Kha1", age: "26" },
       { id: 3, name: "Kha2", age: "32" },
     ],
   };
@@ -17,14 +17,14 @@ class MyComponent extends React.Component {
     // const myInfor = ["ab", "c", "d"];
     return (
       <div>
-        <UserInfo /> 
-        <hr />
+        <UserInfo />
+
         <br />
+
         <DisplayInfo
           listUsers={this.state.listUsers}
           users={this.state.listUsers}
         />
-        <hr />
       </div>
     );
   }
