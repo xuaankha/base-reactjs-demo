@@ -14,7 +14,7 @@ class UserInfo extends React.Component {
       name: "Kha Pro",
     });
   };
-  handleonMoverOver(event) {
+  handleOnMoverOver(event) {
     // console.log(event);
   }
 
@@ -52,7 +52,6 @@ class UserInfo extends React.Component {
           />
           <button>Submit</button>
         </form>
-        ;
       </div>
     );
   }
